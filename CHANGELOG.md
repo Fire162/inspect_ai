@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.4.0](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.279...0.4.0) (2026-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* block writable host mounts in Docker sandboxes by default ([#5830](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5830))
+
+### Features
+
+* keep the response headers of a model call ([#5795](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5795)) ([1b16791](https://github.com/UKGovernmentBEIS/inspect_ai/commit/1b167913bce1c6bb9dbf85bd67edbc02015b706c))
+
+
+### Bug Fixes
+
+* block writable host mounts in Docker sandboxes by default ([#5830](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5830)) ([d7495e8](https://github.com/UKGovernmentBEIS/inspect_ai/commit/d7495e8020d362f22aa7ac8ae238c3c9c6ca5602))
+* remove duplicated type: ignore comments that ast-serialize 0.13 rejects ([#5835](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5835)) ([81c1668](https://github.com/UKGovernmentBEIS/inspect_ai/commit/81c1668d31030eebf7ff55e8376c2650b4f811ed))
+* store and state changes crashing, replaying wrong, or logging unchanged NaNs ([#5751](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5751)) ([31a5661](https://github.com/UKGovernmentBEIS/inspect_ai/commit/31a5661544bc1c49dba9af8c5fed00087ef3fe9f))
+
+
+### Reverts
+
+* remove the short-lived inspect_ai.core package added in 0.3.277; core data types stay at their original import paths ([#5828](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5828)) ([295daba](https://github.com/UKGovernmentBEIS/inspect_ai/commit/295dabaaba23ffc8dc0480b9506344054e73fcc1))
+
 ## [0.3.279](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.278...0.3.279) (2026-10-12)
 
 ### Bug Fixes
